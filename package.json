@@ -1,0 +1,37 @@
+{
+  "name": "crypto-market-price-inserter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/crypto-market-price-inserter.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "watch": "rollup -c --watch",
+    "lint": "eslint . --ext .js --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@rollup/plugin-babel": "^5.2.0",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.23.1",
+    "rollup-plugin-terser": "^7.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "socket.io-client": "^2.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 version",
+    "iOS >= 7",
+    "Safari >= 7",
+    "Explorer >= 11"
+  ]
+}

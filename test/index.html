@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>crypto-market-price-inserter test</title>
+</head>
+<body>
+  <p>Bitcoin</p>
+  <p>Ethereum</p>
+  <p>Bitcoins - it bound only to strict phrase</p>
+  <p>Bitcoin is an crypto-currency.</p>
+  <p>Do you now something about Ethereum?</p>
+  <p>
+    <div>
+      <div>Nested binding for Bitcoin</div>
+    </div>
+  </p>
+  <p>Bitcoin and Bitcoin</p>
+  <p>Bitcoin and Bitcoins</p>
+  <p class="nopriceinsert">Bitcoin - don't bind in the disable element</p>
+  <p class="nopriceinsert">
+    And in the children of disabled element <span>Bitcoin</span> and <span>Ethereum</span>
+  </p>
+  <!-- Bitcoin -->
+  <script>
+    // Bitcoin
+
+    function Bitcoin() {
+      console.log('Bitcoin');
+    }
+  </script>
+  <script src="../dist/crypto-market-price-inserter.js"></script>
+</body>
+</html>
+
+
+
