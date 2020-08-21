@@ -5,13 +5,14 @@ The crypto market price inserter is provided by executium as a `plugin`. This pl
 ## Hosted Installation
 Simply insert the following code into the foot of your page.
 ```
+<script src="https://cdn.executium.com/media/dist/crypto-market-price-inserter/min.js"></script>
 ```
 
 ## Stopping an area from converting to price
 If you do not want an area to convert then add `nopriceinsert` in a class. All children of that class will then not convert. For example if you didn't want an entire page to convert you could set it as `<body class="nopriceinsert">` then the entire page would not convert.
 
 ## How does it convert?
-The conversion happens based on a pre-arranged array. That
+The conversion happens based on a pre-arranged array. An example of that array is as follows:
 
 ```javascript
 [{phrase:"Bitcoin",code:"bids-binance-btcusdt",img:'btc'},{phrase:"Ethereum",code:"bids-binance-ethusdt",'img':'eth'}]
