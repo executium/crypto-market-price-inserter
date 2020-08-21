@@ -1,4 +1,5 @@
 # Crypto Market Price Inserter
+![Price inserter](https://i.imgur.com/qjXFvy7.png)
 The crypto market price inserter is provided by executium as a `plugin`. This plugin allows you to add the javascript CDN 
 
 ## Hosted Installation
