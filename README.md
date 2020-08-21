@@ -31,7 +31,7 @@ If you do not want an area to convert then add `nopriceinsert` in a class. All c
 The conversion happens based on a pre-arranged array. An example of that array is as follows:
 
 ```javascript
-[{phrase:"Bitcoin",code:"bids-binance-btcusdt",img:'btc'},{phrase:"Ethereum",code:"bids-binance-ethusdt",'img':'eth'}]
+[{phrase:"Bitcoin",code:"bids-binance-btcusdt",icon:"btc"},{phrase:"Ethereum",code:"bids-binance-ethusdt",icon:"eth"},{phrase:"XRP",code:"bids-binance-xrpusdt",icon:"xrp"},{phrase:"Ripple",code:"bids-binance-xrpusdt",icon:"xrp"},{phrase:"Monero",code:"bids-binance-xmrusdt",icon:"xmr"},{phrase:"Litecoin",code:"bids-binance-ltcusdt",icon:"ltc"},{phrase:"XTZ",code:"bids-binance-xtzusdt",icon:"xtz"},{phrase:"Tezos",code:"bids-binance-xtzusdt",icon:"xtz"}]
 ```
 Ths object is currently not editable. If you have suggestions on what you would like to see included then please let us know so we can consider it. 
 
