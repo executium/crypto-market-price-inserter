@@ -2,7 +2,7 @@
 ![Price inserter](https://i.imgur.com/qjXFvy7.png)
 The `crypto market price inserter` is provided by executium as a `plugin`. This plugin allows you to add the javascript CDN to your page and it will find all occurences of crypto related words such as `bitcoin` and append a price to them. 
 
-![Ethereum converted on google](https://i.imgur.com/AcPPY8S.jpg)
+![Ethereum converted on google](https://i.imgur.com/egdzQRv.jpg)
 
 ## What words are currently supported?
 We currently support the followin words::
