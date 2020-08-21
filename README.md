@@ -39,16 +39,22 @@ Ths object is currently not editable. If you have suggestions on what you would 
 The content delivery network is provided by executium ltd and is subject to change. Images are provided via the network and are subject to change. An example of a `cdn` image link is as follows:
 
 ```
+https://cdn.executium.com/media/brands/icons/usdt.png
 https://cdn.executium.com/media/brands/icons/btc.png
 https://cdn.executium.com/media/brands/icons/eth.png
 https://cdn.executium.com/media/brands/icons/xrp.png
-https://cdn.executium.com/media/brands/icons/link.png
+https://cdn.executium.com/media/brands/icons/xmr.png
+https://cdn.executium.com/media/brands/icons/ltc.png
+https://cdn.executium.com/media/brands/icons/xtz.png
 ```
 
+![tether logo](https://cdn.executium.com/media/brands/icons/usdt.png)
 ![bitcoin logo](https://cdn.executium.com/media/brands/icons/btc.png)
 ![eth logo](https://cdn.executium.com/media/brands/icons/eth.png)
 ![xrp logo](https://cdn.executium.com/media/brands/icons/xrp.png)
-![link logo](https://cdn.executium.com/media/brands/icons/link.png)
+![link logo](https://cdn.executium.com/media/brands/icons/xmr.png)
+![link logo](https://cdn.executium.com/media/brands/icons/ltc.png)
+![link logo](https://cdn.executium.com/media/brands/icons/xtz.png)
 
 ## Try it in `devtools`
 Open `devtools` and then in `console` paste the following line:
