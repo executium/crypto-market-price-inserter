@@ -7,16 +7,31 @@ Simply insert the following code into the foot of your page.
 ```
 ```
 
-## Customization
+## Stopping an area from converting to price
+If you do not want an area to convert then add `nopriceinsert` in a class. All children of that class will then not convert. For example if you didn't want an entire page to convert you could set it as `<body class="nopriceinsert">` then the entire page would not convert.
+
+## How does it convert?
+The conversion happens based on a pre-arranged array. That
+
+```javascript
+[{phrase:"Bitcoin",code:"bids-binance-btcusdt",img:'btc'},{phrase:"Ethereum",code:"bids-binance-ethusdt",'img':'eth'}]
+```
+Ths object is currently not editable. If you have suggestions on what you would like to see included then please let us know so we can consider it. 
 
 ## Content Delivery Network
 The content delivery network is provided by executium ltd and is subject to change. Images are provided via the network and are subject to change. An example of a `cdn` image link is as follows:
 
 ```
 https://cdn.executium.com/media/brands/icons/btc.png
+https://cdn.executium.com/media/brands/icons/eth.png
+https://cdn.executium.com/media/brands/icons/xrp.png
+https://cdn.executium.com/media/brands/icons/link.png
 ```
 
 ![bitcoin logo](https://cdn.executium.com/media/brands/icons/btc.png)
+![eth logo](https://cdn.executium.com/media/brands/icons/eth.png)
+![xrp logo](https://cdn.executium.com/media/brands/icons/xrp.png)
+![link logo](https://cdn.executium.com/media/brands/icons/link.png)
 
 ## License
 MIT License
