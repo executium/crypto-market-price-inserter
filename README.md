@@ -60,7 +60,7 @@ https://cdn.executium.com/media/brands/icons/xtz.png
 Open `devtools` and then in `console` paste the following line:
 
 ```javascript
-var my = document.createElement('script');my.setAttribute('src','https://cdn.executium.com/media/dist/crypto-market-price-inserter/min.js?a');document.head.appendChild(my);
+var my = document.createElement('script');my.setAttribute('src','https://cdn.executium.com/media/dist/crypto-market-price-inserter/min.js');document.head.appendChild(my);
 ```
 
 Some useful
