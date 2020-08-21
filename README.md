@@ -2,6 +2,22 @@
 ![Price inserter](https://i.imgur.com/qjXFvy7.png)
 The `crypto market price inserter` is provided by executium as a `plugin`. This plugin allows you to add the javascript CDN to your page and it will find all occurences of crypto related words such as `bitcoin` and append a price to them. 
 
+![Ethereum converted on google](https://i.imgur.com/AcPPY8S.jpg)
+
+## What words are currently supported?
+We currently support the followin words::
+
+- Bitcoin
+- Ethereum
+- XRP
+- Ripple
+- Monero
+- Litecoin
+- XTZ
+- Tezos
+
+All prices quoted are the `USDT`.
+
 ## Hosted Installation
 Simply insert the following code into the foot of your page.
 ```
@@ -33,6 +49,15 @@ https://cdn.executium.com/media/brands/icons/link.png
 ![eth logo](https://cdn.executium.com/media/brands/icons/eth.png)
 ![xrp logo](https://cdn.executium.com/media/brands/icons/xrp.png)
 ![link logo](https://cdn.executium.com/media/brands/icons/link.png)
+
+## Try it in `devtools`
+Open `devtools` and then in `console` paste the following line:
+
+```javascript
+var my = document.createElement('script');my.setAttribute('src','https://cdn.executium.com/media/dist/crypto-market-price-inserter/min.js?a');document.head.appendChild(my);
+```
+
+Some useful
 
 ## License
 MIT License
