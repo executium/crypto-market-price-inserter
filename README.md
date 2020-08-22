@@ -24,6 +24,11 @@ Simply insert the following code into the foot of your page.
 <script src="https://cdn.executium.com/media/dist/crypto-market-price-inserter/min.js"></script>
 ```
 
+## Live Websocket for Cryptocurrency Market Price
+The `plugin` allows you to simply add the javascript at the foot of your page and then it will do the rest of the work. It will connect to the executium websocket network and stream you live price data to your page.
+
+![](https://i.imgur.com/5FUu6ly.gif)
+
 ## Stopping an area from converting to price
 If you do not want an area to convert then add `nopriceinsert` in a class. All children of that class will then not convert. For example if you didn't want an entire page to convert you could set it as `<body class="nopriceinsert">` then the entire page would not convert.
 
