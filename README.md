@@ -16,7 +16,7 @@ We currently support the followin words::
 - XTZ
 - Tezos
 
-All prices quoted are the `USDT`.
+All prices quoted are that of `USDT`.
 
 ## Hosted Installation
 Simply insert the following code into the foot of your page.
