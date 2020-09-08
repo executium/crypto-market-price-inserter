@@ -18,6 +18,9 @@ We currently support the followin words::
 
 All prices quoted are that of `USDT`.
 
+## Wordpress plugin
+If you are looking to get started right away with your wordpress installation, there is a [wordpress plugin available for the crypto inserter here](https://wordpress.org/plugins/crypto-market-price-inserter/). It is easy to install and starts working on installation.
+
 ## Hosted Installation
 Simply insert the following code into the foot of your page.
 ```
@@ -62,13 +65,13 @@ https://cdn.executium.com/media/brands/icons/xtz.png
 ![link logo](https://cdn.executium.com/media/brands/icons/xtz.png)
 
 ## Try it in `devtools`
-Open `devtools` and then in `console` paste the following line:
+Visit a website, open `devtools` and then in `console` paste the following line:
 
 ```javascript
 var my = document.createElement('script');my.setAttribute('src','https://cdn.executium.com/media/dist/crypto-market-price-inserter/min.js');document.head.appendChild(my);
 ```
 
-Some useful
+The above will allow you to load the crypto inserter into the page manually to see how it works.
 
 ## License
 MIT License
